@@ -44,3 +44,10 @@ django-admin startproject 项目名
 
 ```sudo apt install gnome-software```
 
+
+
+### 6.failed to fetch
+
+```sudo vim /etc/resolv.conf```
+
+修改nameserver为8.8.8.8
