@@ -75,3 +75,35 @@ name = dict()
 ``` []```
 
 转换成list : list(infos.items())[0]
+
+
+
+### 传参
+
+*代表之后都使用关键字
+
+1. 序列传参(使用较少)
+
+   `def calc(a,b,c)`
+
+   `l=[1,5,10]`
+
+   `func(*l)`
+
+2. 字典传参(常见)
+
+   `param={"name":"zhangsan","age":18  ...}`
+
+   `func(**param)`
+
+3. 返回值包含多个数据
+
+   `dict={`
+
+   ​		`"employee":[{"s":123},{},{}],`
+
+   ​		`"device":[{},{}]`
+
+   `}`
+
+   `return dict`

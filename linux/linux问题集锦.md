@@ -51,3 +51,23 @@ django-admin startproject 项目名
 ```sudo vim /etc/resolv.conf```
 
 修改nameserver为8.8.8.8
+
+
+
+### 7.百度网盘不限速
+
+aria2\axel
+
+
+
+
+
+### 8.解决修改/etc/resolv.conf重置问题
+
+whereis systemd
+
+cd /etc/systemd
+
+sudo vim resolved.conf
+
+DNS=8.8.8.8
